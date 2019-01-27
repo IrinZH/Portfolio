@@ -1,0 +1,318 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #2b2a2c;
+  margin: 0;
+} 
+img {
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 1170px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  /*background: gray;*/
+  
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name{
+  display:block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.description {
+  margin-left: 9px;
+
+}
+.menu-logo{
+  display: flex;
+  align-items:center;
+}
+.avatar {
+  width: 57px;
+height: 57px;
+background: url(https://pp.userapi.com/c630322/v630322567/49a81/cEYsbr6lPv0.jpg?ava=1);
+  background-size: 100%;
+  border-radius: 50%; /*скруглили аватар*/
+}
+.menu_list {
+  display: flex;
+  align-items: center;
+}
+.menu_list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 30px;
+}
+
+.menu-button{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c; 
+  padding: 13px 22px;
+}
+
+.menu_list a {
+text-decoration:none; 
+display: inline-block; 
+line-height: 1; 
+color:#2b2a2c;
+position:relative;
+}
+
+.menu_list a:after {
+    display: block; 
+    content: ""; 
+    height: 3px; 
+    width: 0%; 
+    background-color: #2b2a2c; 
+    transition: width 0.4s ease-in-out; 
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%)
+}
+
+.menu_list a:hover:after,
+.menu_list a:focus:after {
+    width: 100%;
+}
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  /*background: url('https://wmpics.pics/upload/images/CFIR.png') no-repeat right bottom;*/
+  background: url('https://pp.userapi.com/c846523/v846523932/18b823/AEZRASJNTiE.jpg') no-repeat right bottom; 
+}
+.hero-subtitle {
+  font-size: 32px;
+} 
+.hero-title {
+  font-size: 32px;
+  font wight: 800;
+  margin top: 5px;
+  margin-bottom: 5px;
+}
+.hero-description {
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social {
+  margin-top: 26px;
+}
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;  
+  margin-right: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+.behance-bg {
+  background-color: #1869ff;
+}
+.facebook-bg {
+  background-color: #3a5898;
+}
+.insta-bg {
+  background-color: #13578a;
+}
+.vk-bg {
+ background-color: #56acef;
+}
+.hero-buttons {
+  margin-top: 40px;
+}
+.button {
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+.button-primary {
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+
+} 
+.button-o {
+  background-color: transparent;
+  color: #6a696b;
+  border: 1px solid #6a696b;
+  }
+.projects {
+    padding: 97px 0;
+}
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+
+}
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.project-card__image {
+  height: 300px;
+}
+.page1 {
+  background: url('http://www.deltatravel.com.ua/wp-content/uploads/2016/05/Landing-page.jpg') center top;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.page2 {
+  background: url('https://www.mooglyblog.com/wp-content/uploads/2015/03/How-to-Find-Patterns-on-Ravelry-Cover.jpg') center right -30px; 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page3 {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOtnqdydTnkFL3SVyuUd-x006pX67pWl0ohLs2RG87Z8ZbsIA1') center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project-card_info{
+    margin: 19px 20px 15px;
+}
+.project-category {
+  display: block;
+  font-size: 12px;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.about-container {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url('https://pp.userapi.com/c849020/v849020267/112be3/1K2hMstvmKE.jpg') no-repeat left top;
+  
+}
+.about-info {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: 100px;
+  width: 480px;
+}
+h2 {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 15px;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+.about-info p {
+  color: #717072;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.footer {
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+.footer a {
+  color: #8d8d8e; 
+  text-decoration: none;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+}
+.copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer-social {}
+.footer-social__link {
+  font-style: 20px;
+  margin-right: 13px;
+}
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.footer-button {
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #8d8d8e;
+  padding: 8px 22px;  
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+  .project-card {
+    width: 48%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 760px;
+  }
+   .project-card {
+    width: 48%;
+  }
+  .about-info {
+    margin-top: 500px;
+  }
+}
+ @media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+   .description-small {
+     font-size: 10px;
+   }
+   .menu-list {
+    display: none; 
+   }
+   .hero {
+     padding-bottom: 480px;
+     padding-top: 30px;
+   }
+   .project-card {
+    width: 95%;
+    margin: 30px auto;
+  } 
+}
+
+
